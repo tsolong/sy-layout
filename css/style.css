@@ -1,0 +1,38 @@
+body{font-family: "微软雅黑"; background-color: #f6f6f6;}
+
+.inner{width: 1200px; margin: 0 auto;}
+
+#header{background-color: #303342;}
+
+.company-name{margin-bottom: 0; height: 72px; margin-left: 20px; font-size: 24px; color: #fff; line-height: 72px;}
+
+.nav{width: auto;}
+.nav ul{width: auto; margin-bottom: 0;}
+.nav ul li{float: left; margin-right: 30px;}
+.nav ul li a{display: block; height: 72px; padding: 0 18px; font-size: 16px; color: #fff; line-height: 72px;}
+.nav ul li a:hover,
+.nav ul li a.active{background-color: #1e91d4; text-decoration: none;}
+
+#banner{height: 500px; position: relative; overflow: hidden;}
+#banner img{position: absolute; top: 0; left: 50%; margin-left: -960px;}
+
+#container{min-height: 700px; padding: 30px 0;}
+
+#side-left{width: 220px; padding-bottom: 32px; background-color: #fff; border: 2px solid #1f90d4; border-radius: 6px; border-top-left-radius: 4px; border-top-right-radius: 4px; overflow: hidden;}
+#side-left .title{height: 48px; margin-bottom: 15px; font-size: 22px; color: #fff; line-height: 46px; text-align: center; background-color: #1e91d4;}
+#side-left .name{margin: 0 4px; padding: 0 8px; font-size: 18px; line-height: 45px; border-bottom: 1px solid #eaeaea;}
+#side-left .mobile{margin: 0 4px; padding: 0 8px; font-size: 18px; line-height: 45px;}
+
+#main{width: 940px;}
+#main .location{margin-bottom: 18px; padding: 0 25px; font-size: 22px; color: #fff; line-height: 50px; background-color: #1e91d4; border-top-left-radius: 4px; border-top-right-radius: 4px;}
+
+#box{padding: 28px 28px 38px; background-color: #fff; border-radius: 2px; box-shadow: 0 0 5px 2px #f1f1f1;}
+
+.content{font-size: 16px; line-height: 1.8; word-break: break-all; word-wrap: break-word; text-align: justify;}
+
+#footer{padding: 15px 0; background-color: #454b5b; color: #c0c4cf;}
+#footer .links{}
+#footer .links span{font-size: 18px; margin-right: 90px;}
+#footer .links a{color: #c0c4cf; margin: 0 10px;}
+#footer .links a:hover{text-decoration: none; color: #fff;}
+#footer .info{margin-bottom: 0;}
