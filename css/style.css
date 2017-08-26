@@ -11,6 +11,8 @@ body{font-family: "微软雅黑"; background-color: #f6f6f6;}
 .nav ul li{float: left; margin-right: 30px;}
 .nav ul li a{display: block; height: 72px; padding: 0 18px; font-size: 16px; color: #fff; line-height: 72px;}
 .nav ul li a:hover,
+.nav ul li a:focus,
+.nav ul li a:active,
 .nav ul li a.active{background-color: #1e91d4; text-decoration: none;}
 
 #banner{height: 500px; position: relative; overflow: hidden;}
@@ -26,7 +28,7 @@ body{font-family: "微软雅黑"; background-color: #f6f6f6;}
 #main{width: 940px;}
 #main .location{margin-bottom: 18px; padding: 0 25px; font-size: 22px; color: #fff; line-height: 50px; background-color: #1e91d4; border-top-left-radius: 4px; border-top-right-radius: 4px;}
 
-#box{padding: 28px 28px 38px; background-color: #fff; border-radius: 2px; box-shadow: 0 0 5px 2px #f1f1f1;}
+#box{padding: 28px 28px 38px; background-color: #fff; border-radius: 2px; box-shadow: 0 0 5px 3px #f1f1f1;}
 
 .content{font-size: 16px; line-height: 1.8; word-break: break-all; word-wrap: break-word; text-align: justify;}
 
@@ -36,3 +38,52 @@ body{font-family: "微软雅黑"; background-color: #f6f6f6;}
 #footer .links a{color: #c0c4cf; margin: 0 10px;}
 #footer .links a:hover{text-decoration: none; color: #fff;}
 #footer .info{margin-bottom: 0;}
+
+#product-class{margin-right: -20px;}
+#product-class li{width: 300px; height: 410px; float: left; display: inline; margin: 0 20px 20px 0; padding: 15px; background-color: #fff; box-shadow: 0 0 5px 3px #f1f1f1; transition: all .5s;}
+#product-class li:hover{box-shadow: 0 0 20px 5px #ddd; transform: scale(1.05, 1.05);}
+#product-class li .pro-img{display: block; width: 270px; height: 202px;}
+#product-class li .pro-title{margin-bottom: 15px; font-size: 24px;}
+#product-class li .pro-intro{margin-bottom: 0; font-size: 16px;}
+
+#news-lists{}
+#news-lists li{margin-bottom: 20px; padding: 10px 30px 10px 10px; background-color: #fff; box-shadow: 0 0 5px 3px #f1f1f1; transition: all .5s;}
+#news-lists li:hover{box-shadow: 0 0 20px 5px #ddd; transform: scale(1.05, 1.05);}
+#news-lists li .pic{float: left; display: inline;}
+#news-lists li .pic img{width: 196px; height: 180px;}
+#news-lists li .info{width: 674px; float: right; display: inline;}
+#news-lists li .info .caption{margin-top: 30px; margin-bottom: 15px; padding-left: 5px; border-left: 4px solid #1c92d2;}
+#news-lists li .info .caption .title{font-size: 20px; color: #333; float: left; display: inline;}
+#news-lists li .info .caption .title:hover{color: #1c92d2; text-decoration: none;}
+#news-lists li .info .caption .date{float: right; display: inline; font-size: 14px; color: #666; line-height: 22px;}
+#news-lists li .info .abstract{font-size: 16px; word-break: break-all; word-wrap: break-word;}
+#news-lists li .info .link{margin-bottom: 0;}
+
+.pagination-bar{padding: 10px 0;}
+.pagination-bar a{display: inline-block; height: 30px; margin: 0 0 0 5px; padding: 0 10px; background-color: #fff; border: 1px solid #ddd; font-size:14px; color: #666; line-height: 30px;}
+.pagination-bar a:hover,
+.pagination-bar a.active{border-color: #1e91d4; background-color: #1e91d4; color: #fff; text-decoration: none;}
+.pagination-bar a.disabled{color: #ddd; background-color: #fff; border-color: #ddd; cursor: auto;}
+.pagination-bar a.more{border-color: transparent; background-color: transparent;}
+.pagination-bar a.more:hover{border-color: #1e91d4; background-color: #1e91d4; color: #fff;}
+
+.current-location{padding-left: 28px; font-size: 20px; color: #454545;}
+.current-location a{color: #454545;}
+.current-location a:hover{color: #1c92d2; text-decoration: none;}
+.current-location span{color: #ccc; margin: 0 8px;}
+
+.news-title{margin-bottom: 30px; padding-left: 10px; border-left: 4px solid #1e91d4; font-size: 24px;}
+.news-title span{margin-left: 50px; font-size: 14px;color: #666;}
+
+#msg-form{}
+#msg-form dl{margin-bottom: 15px;}
+#msg-form dl dt{float: left; display: inline; width: 90px; text-align: right; margin-top: 4px;}
+#msg-form dl dt label{margin-bottom: 0; font-size: 16px; font-weight: normal;}
+#msg-form dl dd{margin-left: 95px; vertical-align: middle;}
+#msg-form dl dd input{width: 230px; height: 30px; margin: 0; padding: 0 5px; background-color: #fff; border: 1px solid #ddd; vertical-align: middle;}
+#msg-form dl dd textarea{margin: 0; padding: 0 5px; background-color: #fff; border: 1px solid #ddd; resize: none;}
+#msg-form dl dd .require{ margin-left: 10px; font-size: 16px; color: #ff0000; vertical-align: middle;}
+#msg-form dl dd button{height: 30px; margin: 0 20px 0 0; padding: 0 12px; background-color: #1e91d4; border: 0; font-size: 16px; color: #fff; line-height: 30px; text-align: center;}
+#msg-form dl dd button:hover{background-color: #176d9e;}
+#msg-form dl dd button:focus,
+#msg-form dl dd button:active{outline: 0;}
